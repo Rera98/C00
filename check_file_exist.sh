@@ -1,6 +1,6 @@
 #!/bin/bash
 # Demande à l'utilisateur de fournir le chemin du fichier
-read -p "Entrez le chemin du fichier à vérifier : " fichier
+read -rp "Entrez le chemin du fichier à vérifier : " fichier
 
 # Vérifie si le fichier existe
 if [ -f "$fichier" ]; then
