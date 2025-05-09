@@ -6,13 +6,13 @@ read -p "Entrez le nom du fichier : " fichier
 
 # Vérifie si l'entrée est vide
 if [ -z "$fichier" ]; then
-  echo "Erreur : aucun nom de fichier fourni."
+  echo "Erreur : aucun nom de fichier fourni"
   exit 1
 fi
 
 # Vérifie si le fichier existe
 if [ -f "$fichier" ]; then
-  echo "Le fichier '$fichier' existe."
+  echo "Le fichier '$fichier' existe"
 else
-  echo "Le fichier '$fichier' n'existe pas."
+  echo "Le fichier '$fichier' n'existe pas"
 fi
