@@ -2,7 +2,7 @@
 # Ce script vérifie si un fichier donné par l'utilisateur existe ou non
 
 # Demande le nom du fichier
-read -rp "Entrez le nom du fichier : " fichier
+read -p "Entrez le nom du fichier : " fichier
 
 # Vérifie si l'entrée est vide
 if [ -z "$fichier" ]; then
