@@ -1,6 +1,6 @@
 #!/bin/bash
 # Ce script vérifie si un fichier donné existe ou non
-read -p "Entrez le nom du fichier : " fichier
+read -rp "Entrez le nom du fichier : " fichier
 
 # Vérifie si le fichier existe et est un fichier régulier
 if [ -f "$fichier" ]; then
