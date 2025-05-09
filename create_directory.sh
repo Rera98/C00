@@ -1,10 +1,5 @@
 #!/bin/bash
+# Ce script crée un répertoire nommé test_directory s'il n'existe pas déjà
 
-# Nom du répertoire à créer
-dossier="test_directory"
-
-# Créer le répertoire (sans erreur s'il existe déjà)
-mkdir -p "$dossier"
-
-# Message de confirmation
-echo "Le répertoire '$dossier' a été créé."
+mkdir -p test_directory
+echo "Le répertoire 'test_directory' a été créé."

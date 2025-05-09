@@ -1,2 +1,3 @@
 #!/bin/bash 
-echo "Hello, world!" #affiche Hello,world à l'écran
+#affiche Hello,world à l'écran
+echo "Hello, world!" 
