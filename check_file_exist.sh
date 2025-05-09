@@ -1,10 +1,6 @@
 #!/bin/bash
-# Demande à l'utilisateur de fournir le chemin du fichier
-read -rp "Entrez le chemin du fichier à vérifier : " fichier
+# Demande le nom du fichier
+read -rp "Entrez le nom du fichier : " nom_fichier
 
-# Vérifie si le fichier existe
-if [ -f "$fichier" ]; then
-    echo "Le fichier '$fichier' existe."
-else
-    echo "Le fichier '$fichier' n'existe pas."
-fi
+# Vérifie sans if, avec && et ||
+[ -f "$nom_fichier" ] && echo "Le fichier '$nom_fichier' existe." || echo "Le fichier '$nom_fichier' n'existe pas."
