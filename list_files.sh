@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ce script affiche tous les fichiers du répertoire courant
+# Cette commande affiche tous les fichiers du répertoire courant
 
     ls  
  
